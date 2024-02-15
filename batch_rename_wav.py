@@ -1,7 +1,7 @@
 import os
 
 
-def rename_wave_files(folder_path):
+def rename_wave_files(C:\Users\carlo\Videos\Trixie Velvet\Trixie AI Dataset):
     files = os.listdir(folder_path)
     wav_files = [f for f in files if f.lower().endswith('.wav')]
 
